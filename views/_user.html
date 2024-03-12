@@ -1,0 +1,11 @@
+<div class="user">
+    <div>{{user["_key"]}}</div>
+    <div>{{user["name"]}}</div>
+    <button
+        mix-delete="/users/{{user['_key']}}"
+        mix-default = "Delete"
+        mix-await = "Please wait..."
+    >
+        🗑️
+    </button>    
+</div>
